@@ -4,13 +4,28 @@ var bodyParser          = require("body-parser");
 var methodOverride      = require("method-override");
 var expressSanitizer    = require("express-sanitizer");
 var mongoose            = require("mongoose");
+const User              = require("./models/users");
+const passport          = require("passport");
+const LocalStrategy     = require("passport-local");
+const passportLocalMongoose     = require("passport-local-mongoose");
 
 mongoose.connect("mongodb://localhost/restful_blog_app", {useNewUrlParser: true});
 app.set("view engine", "ejs");
+
+app.use(require("express-session")({
+    secret: "Totally secret",
+    resave: false,
+    saveUninitialized: false
+}));
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(expressSanitizer());
 app.use(methodOverride("_method"));
+app.use(passport.initialize());
+app.use(passport.session());
+passport.use(new LocalStrategy(User.authenticate()));
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
 
 var blogSchema = new mongoose.Schema({
     title: String,
@@ -88,6 +103,33 @@ app.delete("/blogs/:id", function (req, res) {
             res.redirect("/blogs");
         }
     });
+});
+
+app.get("/register", function (req, res) {
+    res.render("register");
+});
+
+app.post("/register", function (req, res) {
+    User.register(new User({username: req.body.username}), req.body.password, function (err, user) {
+        if (err) {
+            console.log(err);
+            return res.render("register");
+        }
+        passport.authenticate("local")(req, res, function () {
+            res.redirect("/blogs");
+        })
+    })
+});
+
+app.get("/login", function (req, res) {
+    res.render("login");
+});
+
+app.post("/login", passport.authenticate("local",{
+    successRedirect: "/blogs",
+    failureRedirect: "/login"
+}), function (req, res) {
+
 });
 
 app.listen(process.env.PORT || 3000, function() {
