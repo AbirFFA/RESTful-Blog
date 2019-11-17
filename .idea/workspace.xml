@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12cc35fe-c433-41ee-ae07-04f57c9cd80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express-session/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express-session/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express-session/session/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express-session/session/memory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express-session/session/session.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express-session/session/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport-local-mongoose/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport-local-mongoose/lib/authenticate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport-local-mongoose/lib/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport-local-mongoose/lib/pbkdf2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport-local-mongoose/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport-local/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport-local/lib/strategy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport-local/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport-local/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/authenticator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/errors/authenticationerror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/framework/connect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/http/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/middleware/authenticate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/middleware/initialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/sessionmanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/strategies/session.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/passport/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/register.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/_baseClone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseClone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/_baseMerge.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseMerge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/_createRound.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/_createRound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/_safeGet.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/_safeGet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/core.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/debounce.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/debounce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/lodash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/lodash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/lodash.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="12cc35fe-c433-41ee-ae07-04f57c9cd80a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +62,16 @@
       <workItem from="1559025436368" duration="1773000" />
       <workItem from="1559118673315" duration="302000" />
       <workItem from="1570847970455" duration="6570000" />
-      <workItem from="1573963767451" duration="856000" />
+      <workItem from="1573963767451" duration="1137000" />
     </task>
+    <task id="LOCAL-00001" summary="Added passport local authentication">
+      <created>1573964893106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573964893106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added passport local authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added passport local authentication" />
   </component>
 </project>
